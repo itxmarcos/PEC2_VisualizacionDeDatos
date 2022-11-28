@@ -1,8 +1,5 @@
-import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 import seaborn as sns
-import matplotlib.ticker as ticker
 import plotly.graph_objects as go
 
 # https://www.kaggle.com/datasets/bappekim/air-pollution-in-seoul
