@@ -1,8 +1,8 @@
+# https://www.kaggle.com/datasets/bappekim/air-pollution-in-seoul
 import pandas as pd
 import seaborn as sns
 import plotly.graph_objects as go
 
-# https://www.kaggle.com/datasets/bappekim/air-pollution-in-seoul
 df = pd.read_csv('Measurement_summary.csv')
 list_scode = list(set(df['Station code'])) # Código de estación, 25 en total
 
